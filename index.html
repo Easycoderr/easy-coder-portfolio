@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- GOOGLE FONT  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/queries.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer src="js/app.js"></script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo"><img src="img/logo.png" alt="easyCoder logo" /></div>
+
+      <ul class="nav-list">
+        <li class="nav-link"><a a class="active" href="#">Home</a></li>
+        <li class="nav-link"><a href="#about">About</a></li>
+        <li class="nav-link"><a href="#skills">My skill</a></li>
+        <li class="nav-link"><a href="#project">Projects</a></li>
+        <li class="nav-link"><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button class="menu-btn-box" name="menu-btn">
+        <ion-icon class="menu-btn" name="menu-outline"></ion-icon>
+        <ion-icon class="menu-btn" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
+      <section class="section-home">
+        <div class="container grid">
+          <div class="personal-info">
+            <h1 class="heading-primary margin-bottom-sm">
+              Hi, I'm <span>Easy Coder</span>
+            </h1>
+            <p class="hero-text">
+              Passionate developer creating innovative web solutions with clean
+              code and modern technologies. Focused on building responsive,
+              user-friendly applications.
+            </p>
+            <div>
+              <a href="#about" class="btn">Learn more &darr;</a>
+              <a href="" class="btn my-cv"
+                >My CV
+                <ion-icon class="d-cv-icon" name="download-outline"></ion-icon
+              ></a>
+            </div>
+            <div class="social-media-links">
+              <a class="social-icon social-icon-face" href="#"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a class="social-icon social-icon-git" href="#"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a class="social-icon social-icon-linked" href="#"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+
+          <img
+            class="hero-img"
+            src="img/personal-img.webp"
+            alt="A person set on table and work."
+          />
+        </div>
+      </section>
+      <section class="section-about" id="about">
+        <header class="container">
+          <h3 class="subheading">About me</h3>
+          <h2 class="heading-secondary">A brief introduction about myself</h2>
+        </header>
+        <div class="container grid grid--2-cols">
+          <div class="about-text-box">
+            <span class="about-number">01</span>
+            <h2 class="heading-tertiary">About me</h2>
+
+            <p class="about-text">
+              A dedicated developer with expertise in modern web technologies.
+              Passionate about creating efficient, scalable solutions and
+              solving complex problems. Continuously learning and adapting to
+              new challenges in the tech industry.
+            </p>
+          </div>
+
+          <img class="about-img" src="img/about-me.png" alt="Person" />
+
+          <img class="about-img" src="img/Education-img.webp" alt="Person" />
+
+          <div class="about-text-box">
+            <span class="about-number">02</span>
+            <h2 class="heading-tertiary">Education</h2>
+            <p class="about-text">
+              Bachelor's degree in Computer Science with focus on software
+              engineering and web development.
+            </p>
+          </div>
+          <div class="about-text-box">
+            <span class="about-number">03</span>
+            <h2 class="heading-tertiary">My Skills</h2>
+            <p class="about-text">
+              Proficient in multiple programming languages and frameworks with
+              strong problem-solving abilities. Experienced in full-stack
+              development and creating responsive web applications.
+              <span><a class="normal-link" href="#skills">Learn more</a></span>
+            </p>
+          </div>
+
+          <img class="about-img" src="img/my-skill.png" alt="Person" />
+        </div>
+      </section>
+      <section class="section-skill" id="skills">
+        <header class="container">
+          <h3 class="subheading">My Skills</h3>
+          <h2 class="heading-secondary">I'm Still improving my skills</h2>
+        </header>
+        <div class="container">
+          <div class="soft-skills">
+            <h2 class="heading-tertiary center-text margin-bottom-bg">
+              Soft skills
+            </h2>
+            <div class="soft-skill-content">
+              <div class="soft-skill">
+                <div class="soft-skill-icon-box">
+                  <img
+                    src="img/skill-img/soft/communication.png"
+                    alt="Communication skill icon"
+                    class="soft-skill-img"
+                  />
+                </div>
+                <div class="soft-skill-text-box">
+                  <h3 class="subheading">Communication</h3>
+                  <p class="soft-skill-text">
+                    Clear and effective communication with team members and
+                    clients to ensure project success.
+                  </p>
+                </div>
+              </div>
+              <div class="soft-skill">
+                <div class="soft-skill-icon-box">
+                  <img
+                    src="img/skill-img/soft/problem-solving.png"
+                    alt="Problem solving skill icon"
+                    class="soft-skill-img"
+                  />
+                </div>
+                <div class="soft-skill-text-box">
+                  <h3 class="subheading">Problem Solving</h3>
+                  <p class="soft-skill-text">
+                    Analytical approach to identify issues and develop efficient
+                    solutions for technical challenges.
+                  </p>
+                </div>
+              </div>
+              <div class="soft-skill">
+                <div class="soft-skill-icon-box">
+                  <img
+                    src="img/skill-img/soft/fast-learning.png"
+                    alt="Fastcli=erning skill icon"
+                    class="soft-skill-img"
+                  />
+                </div>
+                <div class="soft-skill-text-box">
+                  <h3 class="subheading">Fast learning</h3>
+                  <p class="soft-skill-text">
+                    Quick adaptation to new technologies and frameworks to stay
+                    current in the evolving tech landscape.
+                  </p>
+                </div>
+              </div>
+              <div class="soft-skill">
+                <div class="soft-skill-icon-box">
+                  <img
+                    src="img/skill-img/soft/team-working.png"
+                    alt="Team working skill icon"
+                    class="soft-skill-img"
+                  />
+                </div>
+                <div class="soft-skill-text-box">
+                  <h3 class="subheading">Team working</h3>
+                  <p class="soft-skill-text">
+                    Collaborative approach to projects, working effectively with
+                    diverse teams to achieve common goals.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="technical-skills">
+            <h3 class="heading-tertiary center-text margin-bottom-bg">
+              Technical skills
+            </h3>
+            <div class="technical-skill-img-box">
+              <div class="skill-img-box">
+                <img
+                  src="img/skill-img/technical/c-.png"
+                  alt="C plus plus logo"
+                  class="skill-img"
+                />
+              </div>
+              <div class="skill-img-box">
+                <img
+                  src="img/skill-img/technical/database.png"
+                  alt="SQL langguage logo"
+                  class="skill-img"
+                />
+              </div>
+              <div class="skill-img-box">
+                <img
+                  src="img/skill-img/technical/document.png"
+                  alt="Vue.js logo"
+                  class="skill-img"
+                />
+              </div>
+              <div class="skill-img-box">
+                <img
+                  src="img/skill-img/technical/js.png"
+                  alt="javascript language logo"
+                  class="skill-img"
+                />
+              </div>
+              <div class="skill-img-box">
+                <img
+                  src="img/skill-img/technical/nodejs.png"
+                  alt="nodejs logo"
+                  class="skill-img"
+                />
+              </div>
+              <div class="skill-img-box">
+                <img
+                  src="img/skill-img/technical/php.png"
+                  alt="php langguage logo"
+                  class="skill-img"
+                />
+              </div>
+              <div class="skill-img-box">
+                <img
+                  src="img/skill-img/technical/physics.png"
+                  alt="React.js framework logo"
+                  class="skill-img"
+                />
+              </div>
+              <div class="skill-img-box">
+                <img
+                  src="img/skill-img/technical/programing.png"
+                  alt="Angular.js framework logo"
+                  class="skill-img"
+                />
+              </div>
+              <div class="skill-img-box">
+                <img
+                  src="img/skill-img/technical/python.png"
+                  alt="Python langguage Logo"
+                  class="skill-img"
+                />
+              </div>
+              <div class="skill-img-box">
+                <img
+                  src="img/skill-img/technical/c-sharp.png"
+                  alt="Python langguage Logo"
+                  class="skill-img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-project" id="project">
+        <header class="container">
+          <h3 class="subheading">Projects</h3>
+          <h2 class="heading-secondary">Check out my recent work</h2>
+        </header>
+        <div class="container">
+          <div class="project-content grid">
+            <div class="project">
+              <div class="project-img-box">
+                <img
+                  class="project-img"
+                  src="img/project-img/cell-shop.jpg"
+                  alt="cell-shop logo buissens"
+                />
+              </div>
+              <div class="project-text-box">
+                <h3 class="subheading">E-Commerce Platform</h3>
+                <p class="project-text">
+                  A responsive e-commerce website with product listings,
+                  shopping cart, and secure checkout system.
+                </p>
+              </div>
+
+              <div class="project-btn-box">
+                <a class="btn project-link" href="#"
+                  >Project preview<ion-icon
+                    class="open-link-icon"
+                    name="open-outline"
+                  ></ion-icon
+                ></a>
+              </div>
+            </div>
+            <div class="project">
+              <div class="project-img-box">
+                <img
+                  class="project-img"
+                  src="img/project-img/honey.jpg"
+                  alt="honey logo buissens"
+                />
+              </div>
+              <div class="project-text-box">
+                <h3 class="subheading">Product Delivery App</h3>
+                <p class="project-text">
+                  A delivery service web application with order tracking and
+                  real-time updates for customers.
+                </p>
+              </div>
+              <div class="project-btn-box">
+                <a class="btn project-link" href="#"
+                  >Project preview<ion-icon
+                    class="open-link-icon"
+                    name="open-outline"
+                  ></ion-icon
+                ></a>
+              </div>
+            </div>
+            <div class="project">
+              <div class="project-img-box">
+                <img
+                  class="project-img"
+                  src="img/project-img/online-shop.jpg"
+                  alt="online shop logo buissens"
+                />
+              </div>
+              <div class="project-text-box">
+                <h3 class="subheading">Online Store</h3>
+                <p class="project-text">
+                  Modern online store with product filtering, user ratings, and
+                  intuitive shopping experience.
+                </p>
+              </div>
+
+              <div class="project-btn-box">
+                <a class="btn project-link" href="#"
+                  >Project preview<ion-icon
+                    class="open-link-icon"
+                    name="open-outline"
+                  ></ion-icon
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-contact" id="contact">
+        <div class="container grid grid--2-cols">
+          <div class="contact-text-box">
+            <h2 class="heading-secondary margin-bottom-xsm">Contact Me</h2>
+            <p class="contact-text">
+              Interested in working together? Feel free to contact me for any
+              questions or project discussions.
+            </p>
+            <p class="phone-number">
+              <strong>Phone: </strong>+1 (234) 567-8901
+            </p>
+            <p class="email"><strong>Email: </strong>contact@example.com</p>
+            <p class="address">
+              <strong>Address: </strong>123 Developer Street, Code City
+            </p>
+            <p class="open-time"><strong>Hours: </strong>24/7</p>
+            <div class="social-media-links">
+              <a class="social-icon social-icon-face" href="#"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a class="social-icon social-icon-git" href="#"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a class="social-icon social-icon-linked" href="#"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+          <div class="contact-form-box">
+            <form class="contact-form">
+              <input
+                type="text"
+                name="name"
+                class="form-input"
+                placeholder="Name"
+              />
+              <input
+                type="text"
+                name="email"
+                class="form-input"
+                placeholder="Email"
+              />
+              <input
+                type="text"
+                name="subject"
+                class="form-input"
+                placeholder="Subject"
+              />
+              <textarea
+                class="form-input"
+                name="message"
+                id="message"
+                placeholder="Message"
+              ></textarea>
+              <button class="btn form-btn" name="submit-btn">
+                Submit
+                <ion-icon
+                  class="contact-btn-icon"
+                  name="send-outline"
+                ></ion-icon>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <ul class="footer-list">
+            <li class="footer-link"><a href="#">Home</a></li>
+            <li class="footer-link"><a href="#about">About</a></li>
+            <li class="footer-link"><a href="#skills">My skill</a></li>
+            <li class="footer-link"><a href="#project">Projects</a></li>
+            <li class="footer-link"><a href="#contact">Contact</a></li>
+          </ul>
+          <h3 class="copyright">
+            Released under Easy Coder | Copyright &copy;
+            <span class="year">2025</span>
+          </h3>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
